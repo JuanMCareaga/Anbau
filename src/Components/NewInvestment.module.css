@@ -1,0 +1,73 @@
+.containerclc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.datocalc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+.datocalc select{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.datocalc input{
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.titulocal {
+    font-size: 24px;
+    margin-top: 45px;
+    
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+.contenedorbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+@media (min-width: 800px) {
+   
+    .containerclc {
+        align-items: normal;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    .titulocal {
+        display:  none;
+    }
+
+    .contenedorbtn button{
+        font-size: 20px;
+        margin-top: 50px;
+        transition: 600ms;
+
+    }
+
+    .contenedorbtn button:hover{
+        background-color: darkgreen;
+    }
+}

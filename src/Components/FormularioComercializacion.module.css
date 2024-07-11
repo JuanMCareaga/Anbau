@@ -1,0 +1,109 @@
+.formulario{
+    background-image: url('../Images/fon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.tipo {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight:900 ;
+    cursor: pointer;
+    margin-top: -10px;
+    transition: 500ms;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.opciones {
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    height: 130px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.opciones li:hover{
+    color: darkgreen;
+}
+
+
+
+.formulario input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.formulario textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.enviar {
+    padding: 15px 15px 15px 15px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    color: darkgreen;
+    cursor: pointer;
+    transition: 500ms;
+    background-color: antiquewhite;
+}
+
+.enviar:hover {
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+
+.contenedorimg {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .formulario{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .contenedorimg{
+        display: block;
+    }
+
+    .contenedorimg img{
+        width: 500px;
+        border-radius: 20px;
+    
+    }
+}

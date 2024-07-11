@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url("../Images/BannerVerde.jpg");
+    background-size: cover;
+    height: 200px;
+    padding-top: 100px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(140, 160, 120 , 0.5);
+    width: 100%;
+}
+
+
+@media (min-width: 800px) {
+    .banner{
+        height: 300px;
+        background-position: right;
+        
+    }
+
+    .titulo{
+        margin-top: 100px;
+        width: 80%;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+}

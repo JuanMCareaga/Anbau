@@ -1,0 +1,66 @@
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Guia.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+    
+}
+
+.bannervideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cuadro{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    color: antiquewhite;
+    z-index: 1;
+}
+
+.btnGuia{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #1B7A43;
+    color: antiquewhite;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.btnGuia:hover{
+    background-color: antiquewhite;
+    color: #1B7A43;
+}
+
+@media (min-width: 800px) {
+    .fondo{
+        height: 600px;
+        background-size: cover;
+        background-position: right;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    .btnGuia {
+        font-size: 25px;
+    }
+
+    .cuadro{
+        height: 40%;
+    }
+}

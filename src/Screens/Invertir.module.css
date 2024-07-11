@@ -1,0 +1,132 @@
+.banner {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url("../Images/banner.jpg");
+    background-size: cover;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(140, 160, 120 , 0.5);
+    width: 100%;
+}
+
+.pasos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.botones button{
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.botones button:hover{
+    color: antiquewhite;
+    background-color: #064922;
+}
+
+.active{
+    background-color: #064922;
+}
+
+.cardPasos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.texto button{
+    padding: 15px 15px 15px 15px;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #064922;
+    border-style: solid;
+    border-color: #064922;
+    cursor: pointer;
+}
+
+.imagencard img{
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 50px;
+    
+}
+
+
+@media (min-width: 800px) {
+    .banner{
+        height: 600px;
+        background-position: right;
+        
+    }
+
+    .titulo{
+        margin-top: 100px;
+    }
+
+    .cardPasos{
+        flex-direction: row;
+        width: 85%;
+
+    }
+
+    .botones {
+        justify-content: center;
+    }
+
+    .botones button{
+        font-size: 24px;
+        margin-right: 50px;
+    }
+
+    .pasos h1{
+        font-size: 35px;
+        font-weight: 800;
+        width: 50%;
+    }
+
+    .titulocard {
+        font-size: 30px;
+    }
+
+    .cardPasos p{
+        font-size: 20px;
+    }
+
+    .texto button{
+        font-size: 20px;
+    }
+}

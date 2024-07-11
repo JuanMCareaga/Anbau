@@ -1,0 +1,80 @@
+.cardinver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgreen;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+    color: lightgray;
+    margin-top: 50px;
+}
+
+.contimg{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contimg img{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.infocard{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infocard p{
+    margin-bottom: 40px;
+}
+
+.contbtn{
+    margin-bottom: 30px;
+    
+}
+
+
+@media (min-width: 800px) {
+
+.cardinver{
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 200px;
+}
+
+.infocard{
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.contimg{
+    width: 50%;
+}
+
+.contimg img{
+    width: 200px;
+}
+
+.contbtn button{
+    font-size: 18px;
+
+}
+
+.contbtn button:hover{
+    background-color: darkgreen;
+    
+}
+
+}

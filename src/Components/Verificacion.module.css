@@ -1,0 +1,166 @@
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+.titulos h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedorform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputform{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputform label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.inputform input{
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.columna {
+    width: 80%;
+}
+
+.botonnext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contenedorboton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorcargar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.imgcargar img{
+    border-radius: 25px;
+}
+
+.cardcargar {
+    margin-bottom: 50px;
+}
+
+.infocarga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infocarga label{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.infocarga input{
+    font-size: 18px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cardPasos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.imagencard img{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 50px;
+    
+}
+.titulocard{
+    text-align: center;
+}
+
+
+@media (min-width: 800px) {
+    .contenedorform{
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+
+    .columna{
+        width: 400px;
+    }
+
+    .contenedorcargar{
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+
+    .cardPasos{
+        
+        width: 100%;
+
+    }
+
+    .imagencard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagencard img{
+        width: 20%;
+    }
+}

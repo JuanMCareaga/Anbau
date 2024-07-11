@@ -1,0 +1,135 @@
+.comoContenedor {
+    padding-bottom: 50px;
+    height: 100%;
+    background-color: #1C5E38;
+    margin-top: 70px;
+    padding-top: 60px;
+    color: aliceblue;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.cardServicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url(../Images/comercio.jpg);
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 5px;
+    
+}
+
+.cardServicios h4{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.cardServicios2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url(../Images/inversionista.jpeg);
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 5px;
+    
+}
+
+.cardServicios2 h4{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.cardServicios3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url(../Images/asociado.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+    
+}
+
+.cardServicios3 h4{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 500ms;
+}
+
+.link:hover{
+    color: #25864e;
+}
+
+@media (min-width: 800px) {
+    
+    .cardServiciosContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 650px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .cardServicios{
+        height: 100%;
+        width: 25%;
+        border-radius: 25px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .cardServicios2{
+        height: 100%;
+        width: 25%;
+        border-radius: 25px;
+        box-shadow: 1px 1px 1px 1px;
+
+    }
+
+    .cardServicios3{
+        height: 100%;
+        width: 25%;
+        border-radius: 25px;
+        box-shadow: 1px 1px 1px 1px;
+
+    }
+
+    .titulo{
+        font-size: 25px;
+    }
+}

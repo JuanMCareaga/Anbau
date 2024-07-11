@@ -1,0 +1,101 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: antiquewhite;
+    background-color: black;
+  }
+  
+  button.active {
+    background-color: #0c550c;
+    color: white;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .cardPasos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.texto button{
+   margin-top: 50px;
+}
+
+.imagencard img{
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 50px;
+    
+}
+
+@media (min-width: 800px) {
+
+    button{
+        font-size: 25px;
+        padding: 15px 35px 15px 35px;
+        font-weight: 800;
+        border-radius: 5px;
+    }
+   
+    .cardPasos{
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .botones {
+        justify-content: center;
+    }
+
+    .botones button{
+        font-size: 24px;
+        margin-right: 50px;
+    }
+
+    .pasos h1{
+        font-size: 35px;
+        font-weight: 800;
+        width: 50%;
+    }
+
+    .titulocard {
+        font-size: 30px;
+    }
+
+    .cardPasos p{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .texto button{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+.titulo{
+    font-size: 24px;
+    margin-top: 45px;
+    
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+@media (min-width: 800px) {
+
+.titulo{
+    display: none;
+}
+
+
+}

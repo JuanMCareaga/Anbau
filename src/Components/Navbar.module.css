@@ -1,0 +1,104 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    transition: 500ms;
+    
+    z-index: 10;
+    
+}
+
+.navOpen {
+    display: flex;
+    position: fixed;
+    height: 70%;
+    width: 100%;
+    transition: 500ms;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+
+    
+}
+
+.navLink {
+    display: flex;
+    font-size: 1em;
+    font-weight: 500;
+    padding-top: 50px;
+cursor: pointer;
+transition: 500ms;
+text-decoration: none;
+color: black;
+}
+
+.navLink:hover{
+ color: rgb(53, 88, 18);
+}
+
+.Logo {
+  width: 25px;
+}
+
+.equis {
+
+  margin-top: 25px;
+}
+
+@media (min-width: 800px) {
+
+  .navBar{
+    position: fixed;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+  }
+
+  .linksContainer {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+    
+  }
+
+  .navLink {
+    font-size: 1em;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+  }
+
+  
+.navOnScroll{
+  position: fixed;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  background-color: #D2EACF;
+    z-index: 10;
+    margin-top:-10px ;
+  }
+
+
+}
+
+.navOnScroll{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:-10px ;
+    position: fixed;
+    width: 100%;
+    background-color: #D2EACF;
+    z-index: 10;
+    
+}
+
+

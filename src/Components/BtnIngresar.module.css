@@ -1,0 +1,107 @@
+
+
+.boton {
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+
+.boton:hover {
+    background-color: antiquewhite;
+    color: darkgreen;
+}
+
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 50px 50px 50px 50px;
+    transition: ease-in;
+}
+
+.btnIngresar {
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.notienes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notienes button{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.userpass {
+    font-weight: 700;
+}
+
+.userpass input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    color: darkgreen;
+}
+
+
+
+
+@media (min-width: 800px) {
+
+    .popup{
+        padding: 100px 100px 100px 100px;
+    }
+
+    .popup h2{
+        margin-bottom: 50px;
+    }
+
+    .boton {
+        padding: 10px 15px 10px 15px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 800;
+        margin-top: 0;
+        cursor: pointer;
+        background-color: darkgreen;
+        color: antiquewhite;
+    }
+
+    .userpass {
+        display: flex;
+        align-items: self-start;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .userpass input{
+        height: 30px;
+        width: 100%;
+    }
+
+    .notienes {
+        font-size: 18px;
+    }
+    
+}
