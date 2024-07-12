@@ -13,21 +13,21 @@ const LoginButton = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar el envío del formulario de inicio de sesión, por ejemplo, enviar los datos a una API
+    
     console.log({ username, password });
-    setShowLoginPopup(false); // Ocultar el pop-up después de enviar los datos
+    setShowLoginPopup(false); 
   };
 
   const handleRegister = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar el envío del formulario de registro, por ejemplo, enviar los datos a una API
+    
     console.log({
       registerUsername,
       registerEmail,
       registerPassword,
       registerConfirmPassword,
     });
-    setShowRegisterPopup(false); // Ocultar el pop-up después de enviar los datos
+    setShowRegisterPopup(false); 
   };
 
   return (

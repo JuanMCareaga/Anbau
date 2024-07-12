@@ -31,6 +31,12 @@
     z-index: 1;
 }
 
+.infoguia{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
 .btnGuia{
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
@@ -52,8 +58,9 @@
         background-position: right;
     }
 
-    h5 {
+    .infoguia {
         font-size: 30px;
+        margin-bottom: 40px;
     }
 
     .btnGuia {

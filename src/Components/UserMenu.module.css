@@ -1,0 +1,49 @@
+.BtnmenuLog{
+    background-color: darkgreen;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+
+.BtnmenuLog:hover{
+    background-color: antiquewhite;
+    color: darkgreen;
+    border-color: antiquewhite;
+    border-color: darkgreen;
+
+}
+
+.icon{
+    display: none;
+}
+
+.desplegable{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item{
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+@media (min-width: 800px) {
+
+    .BtnmenuLog{
+        margin-top: 0px;
+        margin-left: 30px;
+    
+    }
+    
+    .icon{
+        display: block;
+       
+    }
+    
+    .desplegable{
+        padding-bottom: 25px;
+    }
+
+
+}

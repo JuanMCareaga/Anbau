@@ -5,7 +5,8 @@ import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
 import { useScrollPosition } from '../Hooks/scrollPosition';
 import Logo from '../Images/logo.png'
-import LoginButton from './BtnIngresar';
+
+import UserMenu from './UserMenu';
 
 
 const Navbar = () => {
@@ -56,14 +57,9 @@ const Navbar = () => {
             name: "Galeria",
             href:"/galeria",
         },
+       
         {
             id: 5,
-            link: "Invertir",
-            name: "Invertir",
-            href:"/invertir",
-        },
-        {
-            id: 6,
             link: "Noticias",
             name: "Noticias",
             href:"/noticias",
@@ -100,7 +96,7 @@ const Navbar = () => {
                > {x.link === "SobreNos" ? "Sobre Nos" : x.link} </Link>
            </div>
         ) )} 
-               <LoginButton/>
+               <UserMenu/>
 
        </ul>
        )}
@@ -119,7 +115,7 @@ const Navbar = () => {
                    > {x.link === "SobreNos" ? "Sobre Nos" : x.link} </Link>
                </div>
             ) )}   
-               <LoginButton/>
+               <UserMenu/>
             
            </ul>
         )

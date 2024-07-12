@@ -7,7 +7,7 @@ import noti2 from '../Images/noticia2.jpg'
 export const NoticiasComponente = () => {
   return (
     <>
-    <h1>Noticias</h1>
+    <h1 className={styles.titulonoti}>Noticias</h1>
 
     <div className={styles.sectorNoti}>
         <div className={styles.cardNoticia}>

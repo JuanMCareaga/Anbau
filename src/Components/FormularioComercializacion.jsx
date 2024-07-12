@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './FormularioComercializacion.module.css'
 import logo from '../Images/anbauver.jpg'
 
@@ -29,7 +29,7 @@ const ContactForm = () => {
     <section className={styles.formulario}>
 
     <form onSubmit={handleSubmit} >
-      <h2>Tipo de contacto</h2>
+      <h2 className={styles.titl}>Tipo de contacto</h2>
       <button className={styles.tipo} type="button" onClick={() => setShowOptions(!showOptions)}>
         {contactType || 'Seleccione un tipo 🔻'}
       </button>
@@ -41,25 +41,25 @@ const ContactForm = () => {
           <li onClick={() => handleOptionClick('Exportar')}>Exportar</li>
         </ul>
       )}
-      <h2>Nombre completo</h2>
+      <h2 className={styles.titl}>Nombre completo</h2>
       <input
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
         />
-      <h2>E-mail</h2>
+      <h2 className={styles.titl}>E-mail</h2>
       <input
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         />
-      <h2>Empresa</h2>
+      <h2 className={styles.titl}>Empresa</h2>
       <input
         type="text"
         value={company}
         onChange={(e) => setCompany(e.target.value)}
         />
-      <h2>Mensaje</h2>
+      <h2 className={styles.titl}>Mensaje</h2>
       <textarea
         value={message}
         onChange={(e) => setMessage(e.target.value)}

@@ -2,7 +2,7 @@
     padding-bottom: 50px;
     height: 100%;
     background-color: #1C5E38;
-    margin-top: 70px;
+    margin-top: 100px;
     padding-top: 60px;
     color: aliceblue;
 }
@@ -10,6 +10,8 @@
 .titulo{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
+    font-weight: 800;
 }
 
 .cardServicios{
@@ -94,6 +96,10 @@
 }
 
 @media (min-width: 800px) {
+
+    .comoContenedor{
+        margin-top: 200px;
+    }
     
     .cardServiciosContainer{
         display: flex;

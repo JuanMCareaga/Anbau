@@ -6,6 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+}
+
+.texto h1{
+    margin-bottom: 50px;
+    font-weight: 800;
 }
 
 .texto p{
@@ -36,8 +42,9 @@
 
 .imgSobre{
     width: 40%;
-    
+    margin-top: 150px;
     margin-left: 30px;
+   
 }
 
     .imgSobre img{
@@ -51,7 +58,7 @@
 
     .texto h1{
         font-size: 40px;
-        
+        margin-bottom: 50px;
     }
 
     .texto p{

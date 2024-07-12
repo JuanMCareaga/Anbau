@@ -12,6 +12,8 @@
     padding-top: 10px;
     padding-bottom: 15px;
     border-radius: 10px;
+    font-size: 14px;
+    font-weight: 800;
 }
 
 .formulario {
@@ -162,5 +164,9 @@
 
     .imagencard img{
         width: 20%;
+    }
+
+    .titulos h2{
+        font-size: 30px;
     }
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './Invertir.module.css';
 import { CategoriasBlock } from '../Components/CategoriasBlock';
 import { Guia } from '../Components/Guia'
@@ -25,8 +25,8 @@ con los siguientes pasos</h1>
     
     </section>
 
-    <CategoriasBlock/>
      <Guia/>
+    <CategoriasBlock/>
     </>
   )
 }

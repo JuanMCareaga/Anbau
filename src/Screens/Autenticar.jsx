@@ -13,8 +13,11 @@ export const Autenticar = () => {
         </div>
 
         </div>
-        <h1>Completa los siguientes pasos para 
+        <div className={styles.conttitle}>
+
+        <h1 className={styles.tituloaut}>Completa los siguientes pasos para 
         autenticar tu identidad</h1>
+        </div>
         <Verificacion />
         <br />
         <br />

@@ -4,7 +4,7 @@
     justify-content: center;
     background-image: url("../Images/BannerVerde.jpg");
     background-size: cover;
-    height: 200px;
+    height: 300px;
     padding-top: 100px;
 }
 
@@ -14,12 +14,26 @@
     color: aliceblue;
     background-color: rgb(140, 160, 120 , 0.5);
     width: 100%;
+    padding: 20px 20px 20px 20px;
 }
 
+.conttitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloaut{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    font-weight: 800;
+}
 
 @media (min-width: 800px) {
     .banner{
-        height: 300px;
+        height: 500px;
         background-position: right;
         
     }
@@ -29,5 +43,11 @@
         width: 80%;
         border-radius: 15px;
         font-size: 20px;
+    }
+
+    .tituloaut{
+        width: 50%;
+        margin-top: 150px;
+        margin-bottom: 100px;
     }
 }

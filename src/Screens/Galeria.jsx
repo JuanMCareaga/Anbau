@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from './Galeria.module.css'
 import galeria1 from '../Images/galeria1.jpg'
 import galeria2 from '../Images/galeria2.jpg'

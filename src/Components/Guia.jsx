@@ -9,7 +9,7 @@ export const Guia = () => {
     <video src={GuiaVideo} autoPlay muted loop className={styles.bannervideo}> </video>
 
     <div className={styles.cuadro}>
-    <h5>Si tienes preguntas te dejamos <br></br> nuestra guia para inversores</h5>
+    <h5 className={styles.infoguia}>Si tienes preguntas te dejamos <br></br> nuestra guia para inversores</h5>
     <button className={styles.btnGuia}>Ver Guía</button>
     </div>
     </div>

@@ -109,10 +109,15 @@
 }
 
 @media (min-width: 800px) {
+  .titulo{
+    margin-top: 100px;
+    font-weight: 800;
+  }
   
 
   .container{
     flex-direction: row;
+    
   }
 
   .cuadroNumero{
